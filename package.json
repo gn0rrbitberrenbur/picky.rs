@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@tauri-apps/api": "^2.9.1"
+  }
+}
