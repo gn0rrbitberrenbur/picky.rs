@@ -55,7 +55,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           projectPath: picky
-          tagName: build-${{ github.run_number }}
+          tagName: version-${{ github.run_number }}
           releaseName: "Build ${{ github.run_number }}"
           releaseDraft: false
           prerelease: false
